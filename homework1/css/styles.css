@@ -1,0 +1,27 @@
+.person{
+    display: flex;
+    flex-direction: column;
+    background-color: antiquewhite;
+    padding: 50px 20px;
+    border-radius: 30px;
+    border-width: 3px;
+    border-style: solid;
+    width: 350px;
+}
+.person p{
+    font-size: 16px;
+    text-align: center;
+    font-family: "Inter";    
+    font-weight: 600;
+}
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+    gap: 10px;
+}
+.root{
+    padding: 10px;
+
+}
