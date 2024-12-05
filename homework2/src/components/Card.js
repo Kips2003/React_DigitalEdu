@@ -3,7 +3,7 @@ export function Card (props) {
     return(
         <div className="shopping-item">
             <h3>{props.title}</h3>
-            <img src={props.image} alt="image"/>
+            <img src={props.image} alt=""/>
             <div className="description">
                 <span>{props.stockStatus}</span>
                 <span>Points {props.points}</span>

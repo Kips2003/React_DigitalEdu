@@ -6,14 +6,19 @@ import './App.css';
 
 function App () {
   return(
+    <>
       <main className="container">
           {products.map((product)=>(
             <Card {...product}
            />
           ))}
-          <BlockList />
+          
       </main>
-  )
+      <section className="container">
+        {<BlockList />}
+      </section>
+    </>
+  );
 }
 
 export default App;
