@@ -1,4 +1,4 @@
-const users = [
+export const users = [
   {
     gender: "female",
     name: {
@@ -570,5 +570,3 @@ const users = [
     nat: "RS",
   },
 ];
-
-export default users;
