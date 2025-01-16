@@ -1,5 +1,6 @@
-import React, { useState } from "react";
 import '../css/User.css';
+
+
 
 export function Card (user) {
     return(

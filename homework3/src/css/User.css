@@ -13,7 +13,7 @@
 body {
   overflow: auto;
 }
-#root {
+.innerDiv {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
@@ -23,6 +23,21 @@ body {
 
   margin-top: 200px;
   gap: 20px;
+}
+.outerDiv{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  padding: 50px 0;
+}
+.button{
+  width: 50%;
+  height: 150px;
+  font-size: 40px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: none;
+  border-radius: 30px;
+
 }
 .user {
   display: flex;
