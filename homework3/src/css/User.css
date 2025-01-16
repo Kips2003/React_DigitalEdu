@@ -15,11 +15,14 @@ body {
 }
 #root {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   flex-wrap: wrap;
   margin-bottom: 0.8rem;
-  max-width: 1440px;
+  max-width: 90vw;
   width: 90%;
+
+  margin-top: 200px;
+  gap: 20px;
 }
 .user {
   display: flex;

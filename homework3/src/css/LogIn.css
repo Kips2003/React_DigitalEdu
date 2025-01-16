@@ -1,7 +1,7 @@
 
 .container{
     /* display: flex; */
-    margin: auto 0;
+    margin: 0 auto;
     justify-content: center;
     margin: 0 700px;
     border-radius: 30px;
