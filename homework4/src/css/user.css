@@ -1,0 +1,18 @@
+.userCard{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+
+}
+.user{
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: #ffffff;
+    color: black;
+    padding: 20px;
+    max-width: 300px;
+    width: 100%;
+    
+}
