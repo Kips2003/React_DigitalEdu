@@ -1,0 +1,8 @@
+{
+    "workbench.colorCustomizations": {
+    "statusBar.background": "#000000", // Black or any desired color
+    "statusBar.foreground": "#FFFFFF" // Text color
+    },
+    "workbench.statusBar.visible": true
+
+}
